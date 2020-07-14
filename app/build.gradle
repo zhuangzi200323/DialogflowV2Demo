@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion "29.0.0"
+    buildToolsVersion "29.0.3"
     defaultConfig {
         applicationId "com.amy.dialogflowv2demo"
         minSdkVersion 21
@@ -37,8 +37,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    // Java V2 0.110.0-alpha及之后的版本使用了protobuf-java:3.10.0(android O min-api>=26才可以用)
-    implementation 'com.google.cloud:google-cloud-dialogflow:0.110.0-alpha'
+    // Java V2 0.110.0-alpha及之后的几个版本使用了protobuf-java:3.10.0(android O min-api>=26才可以用)，最新版本已经没有min-api限制
+    implementation 'com.google.cloud:google-cloud-dialogflow:2.1.0'
     // for Remote Procedure Call to avoid "No functional channel service provider found" error while creating SessionsClient
-    implementation 'io.grpc:grpc-okhttp:1.24.0'
+    implementation 'io.grpc:grpc-okhttp:1.30.2'
 }

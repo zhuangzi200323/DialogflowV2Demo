@@ -1,4 +1,4 @@
-package com.amy.dialogflowv2demo;
+package com.sq.dialogflowv2demo;
 
 import android.content.Context;
 
@@ -21,7 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-
-        assertEquals("com.amy.dialogflowv2demo", appContext.getPackageName());
+        assertEquals("com.sq.dialogflowv2demo", appContext.getPackageName());
     }
 }

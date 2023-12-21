@@ -1,4 +1,4 @@
-package com.amy.dialogflowv2demo;
+package com.sq.dialogflowv2demo;
 
 import org.junit.Test;
 

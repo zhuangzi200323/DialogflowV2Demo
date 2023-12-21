@@ -1,4 +1,4 @@
-package com.amy.dialogflowv2demo;
+package com.sq.dialogflowv2demo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,15 +14,16 @@ import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.google.api.gax.core.FixedCredentialsProvider;
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.auth.oauth2.ServiceAccountCredentials;
-import com.google.cloud.dialogflow.v2beta1.DetectIntentResponse;
-import com.google.cloud.dialogflow.v2beta1.QueryInput;
-import com.google.cloud.dialogflow.v2beta1.SessionName;
-import com.google.cloud.dialogflow.v2beta1.SessionsClient;
-import com.google.cloud.dialogflow.v2beta1.SessionsSettings;
-import com.google.cloud.dialogflow.v2beta1.TextInput;
+import com.google.cloud.dialogflow.v2.DetectIntentResponse;
+import com.google.cloud.dialogflow.v2.QueryInput;
+import com.google.cloud.dialogflow.v2.SessionName;
+import com.google.cloud.dialogflow.v2.SessionsClient;
+import com.google.cloud.dialogflow.v2.SessionsSettings;
+import com.google.cloud.dialogflow.v2.TextInput;
 
 import java.io.InputStream;
 import java.util.UUID;
@@ -38,10 +39,12 @@ public class MainActivity extends AppCompatActivity {
     // Java V2
     private SessionsClient sessionsClient;
     private SessionName session;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         final ScrollView scrollview = findViewById(R.id.chatScrollView);
         scrollview.post(() -> scrollview.fullScroll(ScrollView.FOCUS_DOWN));
 
@@ -68,9 +71,10 @@ public class MainActivity extends AppCompatActivity {
         // Java V2
         initV2Chatbot();
     }
+
     private void initV2Chatbot() {
         try {
-            InputStream stream = getResources().openRawResource(R.raw.amytest_c4f8340a901e);
+            InputStream stream = getResources().openRawResource(R.raw.jackagent_hgeh_0d9b51ea974f);
             GoogleCredentials credentials = GoogleCredentials.fromStream(stream);
             String projectId = ((ServiceAccountCredentials)credentials).getProjectId();
 

@@ -1,17 +1,15 @@
-package com.amy.dialogflowv2demo;
+package com.sq.dialogflowv2demo;
 
 import android.app.Activity;
 import android.os.AsyncTask;
 
-import com.google.cloud.dialogflow.v2beta1.DetectIntentRequest;
-import com.google.cloud.dialogflow.v2beta1.DetectIntentResponse;
-import com.google.cloud.dialogflow.v2beta1.QueryInput;
-import com.google.cloud.dialogflow.v2beta1.SessionName;
-import com.google.cloud.dialogflow.v2beta1.SessionsClient;
-
+import com.google.cloud.dialogflow.v2.DetectIntentRequest;
+import com.google.cloud.dialogflow.v2.DetectIntentResponse;
+import com.google.cloud.dialogflow.v2.QueryInput;
+import com.google.cloud.dialogflow.v2.SessionName;
+import com.google.cloud.dialogflow.v2.SessionsClient;
 
 public class RequestJavaV2Task extends AsyncTask<Void, Void, DetectIntentResponse> {
-
     Activity activity;
     private SessionName session;
     private SessionsClient sessionsClient;

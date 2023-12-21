@@ -1,17 +1,21 @@
-apply plugin: 'com.android.application'
+plugins {
+    id 'com.android.application'
+}
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.3"
+    namespace 'com.sq.dialogflowv2demo'
+    compileSdk 33
+
     defaultConfig {
-        applicationId "com.amy.dialogflowv2demo"
-        minSdkVersion 21
-        targetSdkVersion 29
+        applicationId "com.sq.dialogflowv2demo"
+        minSdk 21
+        targetSdk 33
         versionCode 1
         versionName "1.0"
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        buildConfigField 'String', "ClientAccessToken", "\"19b4e1c669004d3e8a8f97aa85ddec38\""
     }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -31,14 +35,15 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    // Java V2 0.110.0-alpha及之后的几个版本使用了protobuf-java:3.10.0(android O min-api>=26才可以用)，最新版本已经没有min-api限制
-    implementation 'com.google.cloud:google-cloud-dialogflow:2.1.0'
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    implementation 'com.google.cloud:google-cloud-dialogflow:4.38.0'
     // for Remote Procedure Call to avoid "No functional channel service provider found" error while creating SessionsClient
-    implementation 'io.grpc:grpc-okhttp:1.30.2'
+    implementation 'io.grpc:grpc-okhttp:1.60.0'
 }

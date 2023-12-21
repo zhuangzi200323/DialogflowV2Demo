@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "jackagent-hgeh",
+  "private_key_id": "928483f72c4e0d68259e2e36cff38b91c680da29",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCei9bBtjm7ot6d\nzjaqBfDPETpg4JXZHzQWfcTf0Mt0v9yIpeOBwIZpxJnRPIi6wfs6f1tJZvY6/jOI\n4H6Of7PIGhdxJreg+yyDC7tV2lshRbl570oBdz2FNjWp0xMvX93VZpptTvLWL+wC\nxQ8ELAImUuLWG4FxrwxGr3/vAc0iYnVOeupwjZNqxRTZkhVDO9g42MRYehNQhvmb\nPNfh6RFxU5LCyhe3qkgIUxQaY0EvlCXzlFxjDDl4im3Vu+egzZ1oqgu5t8VI8Efo\noORgy4WyhoHFsOGlEOcgqFwRNvMMW6OlcbGgxrrb2AlAQixFFlLM4ImU9HrOJSab\nnVnq/QSDAgMBAAECggEASZ5HLxWNQzpCQmZBbbtqcMvgHqHKEtJxXkwyAXczMdfw\n8CaPOG2MPEqE3epM1uNB44zFd5Tumr/0cAdF3KchdLXg0rKWq5JVvdfRufC1RgLZ\nN+xLodibYWKlkmCnVOUf3XpSFJWHHruLzFFyQo6oxODR4XdOKNqOSbguIG3msaLo\n0rAEccpddz/0GcODcJjhplj5xL8gp/Sbb5LJog1XwK5+4B28gVuLQDezDMsIwXN4\nKJqGxOA1HMKr198ii+KyqY8ROZ001FYQP3rC5oKfhRNsV82i2bkkg0TcxzAPAad7\nJnOV5YHO25DqRtQ1XMS3gHVKHmtXuNrNUnLNqU7SiQKBgQDU1co8cuy6QObbceoq\nRilc5TN3kr3Z3cHt7GAZkmErHxFc7FFjdwebA8pUV9kNgl+RG55mL3fj20czgIIN\nYZ35xumUy1ruE1E4DzljyYakEJLKuJxtCjPHnDrf0eTZsbg8DOIFOm5EyXl+XBAS\n3LMovmEDP1C5NCU9ReV0Pk9TtQKBgQC+s2tCQPjF+DKBgI9irAHDmtOo+beAak32\nud9Q3aBMKZuDL3HxlCD76XJJFuQZ8njI3aACIqmCO/2xlWWCfwJtCogNZjhPWhLQ\nCTqpHrJ0Hx8nTiRkQahvDcQ+J4o+BJ3czJHBvdACAG+SGmBZc75YRfadg2qeF0HJ\nvm+OsEiKVwKBgQDEAZt87g3rPYgdwpv3kKPZJE+wqBhlgx9tAMpD4pXQA42W+R+/\nLUh4zxXPdRO0qENgvIG087RCyJea65dZwXOeKzzERj8Yj/u1V/fvWRHBGG5HeZq9\npK6o/s0NgRx0C4Jy8x5X2Ebi3HUiFKDM7imktSdcuTubRFWjRzKYSiX+HQKBgQCe\nl0tt7+ZzjPNDq4yS/IUDDPFVJ0cp7j4kH3POJmG2tSt1L7HMu+mqVfwLOJQ9194G\n/fihjf32JrnWQ24F1mZIFGgM7KOLqlbW17YHC1ZRJ8iawWuWTNwsbwByyCM5bFF0\nXFQjER25bG9cy76w5Ya4loZ/e9jg3GqDwnG38naBRQKBgARpgz9MmCM+EysJ822p\nht4Yf49fNtCIQjgzka6QHHy3KaciyfdCp6qlyLvkgw6bsGN7Y1sdG4dPVRu4JmKH\n8MesdtNg9dg8cDRcY62iegoAahI1IFs+gbz5DjSqaWnjGfxyvxTyYb0/bkozFmTm\n9dvMtHklDToQAPM3IAfoe6Vk\n-----END PRIVATE KEY-----\n",
+  "client_email": "jackagentfinal@jackagent-hgeh.iam.gserviceaccount.com",
+  "client_id": "103278139782038657174",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/jackagentfinal%40jackagent-hgeh.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

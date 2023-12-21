@@ -33,7 +33,7 @@
             android:imeOptions="actionSend"
             android:inputType="text"
             android:paddingTop="4dp"
-            android:text="I know how to code in java"
+            android:text="take me to the bathroom"
             android:textSize="18sp" />
     </RelativeLayout>
 

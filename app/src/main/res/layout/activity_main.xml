@@ -33,7 +33,7 @@
             android:imeOptions="actionSend"
             android:inputType="text"
             android:paddingTop="4dp"
-            android:text="take me to the bathroom"
+            android:text="hi"
             android:textSize="18sp" />
     </RelativeLayout>
 
